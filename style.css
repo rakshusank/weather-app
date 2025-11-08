@@ -1,0 +1,84 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease-in-out;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgb(128, 157, 245);
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #888;
+  text-align: center;
+  width: 300px;
+}
+
+input {
+  padding: 8px;
+  width: 80%;
+  margin-bottom: 10px;
+  border: 3px solid #1a50e6;
+  border-radius: 23px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  background: #00796b;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3c5a55;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+#weatherResult img {
+  width: 80px;
+  height: 80px;
+}
+
+#weatherResult {
+  background: #f1f8ff;
+  padding: 15px;
+  border-radius: 16px;
+  border: 3px solid #1a50e6;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.hidden {
+  display: none;
+}
+
+#loader {
+  border: 6px solid #3ed1d6;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes rainAnim {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
