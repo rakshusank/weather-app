@@ -5,25 +5,25 @@ A simple weather app built using HTML/CSS/JavaScript that fetches real-time data
 
 This project allows users to search for weather conditions by city name. It fetches live data from the OpenWeatherMap API and displays current temperature, humidity, weather description, and an icon representing the conditions.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5** – structure and layout  
 - **CSS3** – responsive styling and design  
 - **JavaScript (ES6)** – API fetching and DOM manipulation  
 - **OpenWeatherMap API** – real-time weather data  
 
-## 🚀 Features
+## Features
 
 - Search weather by city name  
 - Displays temperature, humidity, and condition icon  
 - Error handling for invalid inputs  
 - Clean and minimal user interface  
 
-## 📸 Demo
+## Demo
 
 *(Optional: Add a screenshot here — e.g., “![App Screenshot](screenshot.png)”)*  
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
    ```bash
